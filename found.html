@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Found Items - Lost & Found Campus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Lost & Found Campus
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lost.html">Lost Items</a></li>
+                <li><a href="found.html">Found Items</a></li>
+                <li><a href="report.html">Report Item</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Found Items Section -->
+    <section class="items-section">
+        <!-- Search and Filter -->
+
+<div class="search-filter">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search found items..."
+    >
+
+    <select id="categoryFilter">
+
+        <option value="All">
+            All Categories
+        </option>
+
+        <option value="Documents">
+            Documents
+        </option>
+
+        <option value="Electronics">
+            Electronics
+        </option>
+
+        <option value="Books">
+            Books
+        </option>
+
+        <option value="Accessories">
+            Accessories
+        </option>
+
+        <option value="Others">
+            Others
+        </option>
+
+    </select>
+
+</div>
+
+        <h1>Found Items</h1>
+
+        <p class="section-description">
+            Browse items found on campus.
+        </p>
+
+
+        <div class="items-container" id="foundItemsContainer">
+
+            <!-- Item 1 -->
+            <div class="item-card">
+
+                <div class="item-icon">
+                    🎒
+                </div>
+
+                <div class="item-info">
+
+                    <h2>Black Backpack</h2>
+
+                    <p>
+                        <strong>Category:</strong> Accessories
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong> College Canteen
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> 25/09/2026
+                    </p>
+
+                    <p>
+                        Black backpack found near the canteen.
+                    </p>
+
+                    <button class="view-btn">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Item 2 -->
+            <div class="item-card">
+
+                <div class="item-icon">
+                    🔑
+                </div>
+
+                <div class="item-info">
+
+                    <h2>Key Chain</h2>
+
+                    <p>
+                        <strong>Category:</strong> Accessories
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong> Parking Area
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> 24/09/2026
+                    </p>
+
+                    <p>
+                        A small key chain with two keys.
+                    </p>
+
+                    <button class="view-btn">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Item 3 -->
+            <div class="item-card">
+
+                <div class="item-icon">
+                    💳
+                </div>
+
+                <div class="item-info">
+
+                    <h2>ATM Card</h2>
+
+                    <p>
+                        <strong>Category:</strong> Documents
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong> Main Block
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> 23/09/2026
+                    </p>
+
+                    <p>
+                        ATM card found near the main block.
+                    </p>
+
+                    <button class="view-btn">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Lost & Found Campus</p>
+
+        <p>A Campus Web Technology Project</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

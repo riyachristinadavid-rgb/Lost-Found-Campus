@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lost Items - Lost & Found Campus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Lost & Found Campus
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lost.html">Lost Items</a></li>
+                <li><a href="found.html">Found Items</a></li>
+                <li><a href="report.html">Report Item</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Lost Items Section -->
+    <section class="items-section">
+        <!-- Search and Filter -->
+
+<div class="search-filter">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search lost items..."
+    >
+
+    <select id="categoryFilter">
+
+        <option value="All">
+            All Categories
+        </option>
+
+        <option value="Documents">
+            Documents
+        </option>
+
+        <option value="Electronics">
+            Electronics
+        </option>
+
+        <option value="Books">
+            Books
+        </option>
+
+        <option value="Accessories">
+            Accessories
+        </option>
+
+        <option value="Others">
+            Others
+        </option>
+
+    </select>
+
+</div>
+
+        <h1>Lost Items</h1>
+
+        <p class="section-description">
+            Browse items reported lost on campus.
+        </p>
+
+
+        <div class="items-container" id="lostItemsContainer">
+
+            <!-- Item 1 -->
+            <div class="item-card">
+
+                <div class="item-icon">
+                    🪪
+                </div>
+
+                <div class="item-info">
+
+                    <h2>College ID Card</h2>
+
+                    <p>
+                        <strong>Category:</strong> Documents
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong> College Library
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> 25/09/2026
+                    </p>
+
+                    <p>
+                        Blue college ID card with a black lanyard.
+                    </p>
+
+                    <button class="view-btn">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Item 2 -->
+            <div class="item-card">
+
+                <div class="item-icon">
+                    🎧
+                </div>
+
+                <div class="item-info">
+
+                    <h2>Wireless Earbuds</h2>
+
+                    <p>
+                        <strong>Category:</strong> Electronics
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong> Seminar Hall
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> 24/09/2026
+                    </p>
+
+                    <p>
+                        Black wireless earbuds in a charging case.
+                    </p>
+
+                    <button class="view-btn">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Item 3 -->
+            <div class="item-card">
+
+                <div class="item-icon">
+                    📚
+                </div>
+
+                <div class="item-info">
+
+                    <h2>Data Structures Book</h2>
+
+                    <p>
+                        <strong>Category:</strong> Books
+                    </p>
+
+                    <p>
+                        <strong>Location:</strong> Computer Lab
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> 23/09/2026
+                    </p>
+
+                    <p>
+                        Data Structures textbook with handwritten notes.
+                    </p>
+
+                    <button class="view-btn">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Lost & Found Campus</p>
+
+        <p>A Campus Web Technology Project</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
